@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Arapey|Quattrocento+Sans&display=swap');
+			
+			body{
+			font-size: 26px;	
+			font-family:'Arapey', serif;
+			color:black;
+			}
+		
+			#about-ldmt{
+			margin: 15px;
+			text-align:center;
+			top:20px;
+			margin:15px;
+			padding:20px;
+			}
+			
+		
+			#go-home{
+			text-align: center;
+			}
+
+			html {
+  			background: url("images/marblepic.jpg") no-repeat center center fixed;
+ 			 background-size: cover;
+  			height: 100%;
+  			overflow:visible;
+  			}
+
+			#missing{
+			color: red;
+			}
+
+			footer{
+			font-size: 20px;
+			padding: 8px;
+			height: 100px;
+  			clear: both;
+  			color: white;
+  			text-align:center;
+			}
+
+			#container{
+			border:9px ridge #7c9ec3;
+			padding: 15px;
+			}
+
+			

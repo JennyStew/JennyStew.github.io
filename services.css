@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Arapey|Quattrocento+Sans&display=swap');
+
+		body{
+		font-size: 25px;	
+		font-family:'Arapey', serif;
+		}
+
+		#where-services{
+		margin: 15px;
+		top:20px;
+		margin:15px;
+		padding:20px;
+		}
+		
+				
+		html {
+  		background: url("images/cassettepic.jpg") no-repeat center center fixed;
+ 		background-size: cover;
+  		height: 100%;
+  		overflow:visible;
+		}
+
+			
+		footer{
+		font-size: 18px;
+		padding: 12px;
+		height: 100px;
+		width: 99%;
+  		clear: both;
+  		color: white;
+  		text-align:center;
+  		}

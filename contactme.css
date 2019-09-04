@@ -1,0 +1,46 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Arapey|Quattrocento+Sans&display=swap');
+
+		body{
+		font-size: 25px;	
+		font-family:'Arapey', serif;
+		color: rgb(64, 23, 47);
+		}
+
+		#kelly-pic{
+		width: 70px;
+		border:3px solid rgb(64, 23, 47);
+		border-radius:50%;
+		}
+
+		#what-folks{
+		margin: 15px;
+		text-align:center;
+		margin:12px;
+		padding:10px;
+		}
+
+		#contact-me{
+		margin: 10px;
+		padding: 10px;
+		text-align: center;
+		}
+			
+		html {
+  		background: url("images/ivorypic.jpg") no-repeat center center fixed;
+ 		 background-size: cover;
+  		height: 100%;
+  		overflow:visible;
+		}
+		
+		
+		footer{
+		font-size: 16px;
+		padding: 10px;
+		height: 100px;
+  		clear: both;
+  		color: white;
+  		text-align:center;
+		}

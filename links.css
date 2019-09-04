@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Arapey|Quattrocento+Sans&display=swap');
+
+		body{
+		font-size: 18px;	
+		font-family:'Arapey', serif;
+		}
+		
+		#lotta-links{
+		margin: 10px;
+		text-align:left;
+		margin:10px;
+		padding:10px;
+		}
+
+		html {
+  		background: url("images/ivorypic.jpg") no-repeat center center fixed;
+ 		 background-size: cover;
+  		height: 100%;
+  		overflow:visible;
+		}
