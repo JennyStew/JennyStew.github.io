@@ -148,3 +148,10 @@ footer{
    border-top-color: #1b435e;
    background: #1b435e;
    }
+ #pandemic{
+   	text-align: center;
+	font-size: 24px;
+	padding:5px 20px 45px 20px;
+	background-color: #ecb7bf;
+	color:white;
+   }
