@@ -1,81 +1,118 @@
 <!DOCTYPE html>
 <html lang=en>
-	<head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Links and helpful information</title>
+<style>
+@import url('https://fonts.googleapis.com/css?family=Abel|Arapey|Quattrocento+Sans&display=swap');
 	
-	<meta charset="utf-8">
-	<title>Links and helpful information</title>
-	
-	<link href="css214.css" type="text/css" rel="stylesheet" />
-	<style>
-		@import url('https://fonts.googleapis.com/css?family=Abel|Arapey|Quattrocento+Sans&display=swap');
+th, td {
+	padding:20px; 
+}
+h2 {
+	text-align: center;
+	font-size: 32px;
+	font-family: "Arapey", serif;
+	padding-top:  30px;
+}
+.home {
+	text-align: center;
+	font-size: 20px;
+	margin:90px;
+}
 
-		
+.button {
+	padding: 7.5px 15px;
+	background: #6e78c1;
+	color:white;
+	font-size: 20px;
+	font-family: "Arapey", serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.button:hover {
+  	background: #888e91;
+   	color: #1f051f;
+   }
+ .button:active {
+   background: #1b435e;
+}
 
-	</style>
-	</head>
-	<body>
-	
-	 <h2> Links, helpful information, & resources</h2>
-	 <ol>
-	 <div class="links"> 
-	<li><a href="http://autismallianceofmichigan.org/" class="button">Autism Alliance of Michigan: Advocacy.
-		<!--http://autismallianceofmichigan.org/--></a><br></li>
-	<br>
- 	<li><a href="http://www.musictherapy.org/research/factsheets/" class="button">American Music Therapy Association Fact Sheets <!--http://www.musictherapy.org/research/factsheets/--></a><br></li>
-	<br>
+</style>
+</head>
 
-	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Autism_2012.pdf" class="button">MT & Autism Spectrum Disorders (ASD)
-	<!--http://www.musictherapy.org/assets/1/7/MT_Autism_2012.pdf--></a><br></li>
-	<br>
-
- 	<li><a href="http://www.musictherapy.org/research/music_therapy_and_military_populations/" class="button">MT & Military
- 	<!--http://www.musictherapy.org/research/music_therapy_and_military_populations/--></a><br></li>
-	<br>
-
- 	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Forensics_2006.pdf" class="button">MT & Forensics
-	<!--http://www.musictherapy.org/assets/1/7/MT_Forensics_2006.pdf--></a><br></li>
-	<br>
-
-	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Crisis_2006.pdf" class="button">MT, Crisis & Trauma
- 	<!--http://www.musictherapy.org/assets/1/7/MT_Crisis_2006.pdf--></a><br></li>
- 	<br>
-
- 	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Alzheimers_2006.pdf" class="button">MT & Alzheimer's
-	<!--http://www.musictherapy.org/assets/1/7/MT_Alzheimers_2006.pdf--></a><br></li>
-	<br>
-
- 	<li><a  href="http://www.musictherapy.org/assets/1/7/MT_Young_Children_2006.pdf" class="button">MT & Young Children
-	<!--http://www.musictherapy.org/assets/1/7/MT_Young_Children_2006.pdf--></a><br></li>
-	<br>
-
- 	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Mental_Health_2006.pdf" class="button">MT & Mental Health
-	<!--http://www.musictherapy.org/assets/1/7/MT_Mental_Health_2006.pdf--></a><br></li>
-	<br>
-
- 	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Music_Ed_2006.pdf" class="button">MT & Music Education
-	<!--http://www.musictherapy.org/assets/1/7/MT_Music_Ed_2006.pdf--></a><br></li>
-	<br>
-	<li><a href="http://www.musictherapy.org/assets/1/7/MT_Medicine_2006.pdf" class="button">MT & Medicine
-	<!--http://www.musictherapy.org/assets/1/7/MT_Medicine_2006.pdf--></a>	<br></li>
-	<br>
-	<li><a  href="http://www.musictherapy.org/research/" class="button">MT & ASD
-	 <!--http://www.musictherapy.org/research/--></a><br></li>
-	 <br>
-	<li><a  href="http://www.musictherapy.org/assets/1/7/bib_psychopathology.pdf" class="button">MT & Mental Health
-	<!--http://www.musictherapy.org/assets/1/7/bib_psychopathology.pdf--></a></li>
-	<br>
- 	<li><a href="http://www.musictherapy.org/assets/1/7/bib_Special_Education.pdf" class="button">MT & Music Education
-	<!--http://www.musictherapy.org/assets/1/7/bib_Special_Education.pdf--></a></li>
-	<br>
-	<li><a href="http://www.musictherapy.org/assets/1/7/bib_habilitation.pdf" class="button">MT & Habilitation
-	<!--http://www.musictherapy.org/assets/1/7/bib_habilitation.pdf--></a></li>
-	 </ol>
-	</div>
-		<div class="home">
-		<a  href="index.html">Home</a>
-		</div>
+<body>
+<main>
+<header>
+ <h2> Links, helpful information, & resources</h2>
+</header>
 	
 	
-	
-		</body>
+<table style="width:100%">
+	<tr>
+		<th>
+		<button class="button" onclick="document.location=
+		'http://autismallianceofmichigan.org/'"  >Autism Alliance of Michigan: Advocacy.</button>
+		</th>
+		<th>
+		<button class="button" onclick="document.location='http://www.musictherapy.org/research/factsheets/'">American Music Therapy Association Fact Sheets</button>
+		</th>
+		<th>
+		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Autism_2012.pdf'">MT & Autism Spectrum Disorders (ASD)</button>
+		</th>
+	</tr>
+ 	<tr>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/research/music_therapy_and_military_populations/'">MT & Military</button>
+ 		</th>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Forensics_2006.pdf'">MT & Forensics</button>
+ 		</th>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Crisis_2006.pdf'">MT, Crisis & Trauma</button>
+ 		</th>
+ 	</tr>
+ 	<tr>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Alzheimers_2006.pdf'">MT & Alzheimer's</button>
+ 		</th>
+ 		<th>
+		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Young_Children_2006.pdf'">MT & Young Children</button>
+		</th>
+		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Music_Ed_2006.pdf'">MT & Music Education</button>
+ 		</th>
+ 	</tr>
+ 	<tr>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Medicine_2006.pdf'">MT & Medicine</button>
+ 		</th>
+		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/research/" title="Go to musictherapy.org'">MT & ASD</button>
+ 		</th>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/bib_psychopathology.pdf'" title="Go to musictherapy.org">MT & Mental Health</button>
+ 			</th>
+ 	</tr>
+	<tr>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/bib_Special_Education.pdf'" title="Go to musictherapy.org">MT & Music Education</button>
+ 		</th>
+ 		<th>
+ 		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/bib_habilitation.pdf'" title="Go to musictherapy.org">MT & Habilitation</button>
+ 		</th>
+ 		<th>
+		<button class="button"  onclick="document.location='http://www.musictherapy.org/assets/1/7/MT_Mental_Health_2006.pdf" title="Go to musictherapy.org'">MT & Mental Health</button>
+		</th>
+</tr>
+</table>
+
+</main>
+<footer>
+<div  class="home">
+<a href="index.html">Home</a><br>		
+<p> © Copyright 2014 by Life Dynamic Music Therapy </p>
+</div>
+</footer>
+</body>
  </html>
